@@ -1,5 +1,5 @@
 const axios = require('axios');
-const apiKey = 'SUA_CHAVE_DE_API_DO_YOUTUBE';
+const apiKey = 'AIzaSyAiw_Ano92YzywXpv_pPPWHNF8txNpOGsk';
 
 const searchTerm = 'Mr Beast'; // O termo de pesquisa desejado
 
