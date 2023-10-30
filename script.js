@@ -40,17 +40,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 resultsContainer.innerHTML = videoList.join('');
             }
-        })
-        .catch(error => {
-            console.error('Erro na solicitação:', error);
         });
     });
-});
-
-
-
-
-})
-.catch(error => {
-    console.error('Erro na solicitação:', error);
 });
