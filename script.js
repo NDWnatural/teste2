@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const apiKey = 'AIzaSyAiw_Ano92YzywXpv_pPPWHNF8txNpOGsk'; // Substitua pela sua chave de API real
+    const apiKey = 'AIzaSyCC_vc69IgH6SYGi2aM181b-uUDRaitWzE'; // Substitua pela sua chave de API real
     const apiUrl = 'https://www.googleapis.com/youtube/v3/search';
 
     const resultsContainer = document.getElementById('results');
