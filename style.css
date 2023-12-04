@@ -4,17 +4,6 @@ header{
     left: 0;
     float: inline-end;
 }
-.ydob {
-    margin-top: 0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    font-family: normal, Arial, sans-serif;
-    color: #5e1a29;
-    }
 .elementos{
     list-style-type: none;
     margin: 0;
