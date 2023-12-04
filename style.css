@@ -1,1 +1,29 @@
-
+.elementos{
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff809c00;
+}
+.navel{
+    float: inline-end;
+    margin-inline-start: 40px;
+    list-style-type: none;
+    transition: transform= 0.10s;
+}
+.navel a{
+    display: block;
+    color: rgb(190, 190, 190);
+    text-align: center;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13PX;
+    align-items: center;
+    transition: 0.6s;
+}
+.navel a:hover{
+    color: #5e1a29;
+    font-size: 14px
+}
