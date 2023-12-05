@@ -16,7 +16,9 @@
             font-family: Arial, Helvetica, sans-serif;
             background-color: var(--color-dark1);
             color: var(--color-white);
-                height: 20px;
+            display: flex;
+                width:100%;
+                justify-content: space-around;
         }
         .img_logo_header{
             width: 45px;
