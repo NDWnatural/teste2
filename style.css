@@ -83,6 +83,9 @@
             to {margin-left: -10vw;}
         }
 /*finalizado*/
+.ydob{
+        align-items: center;
+}
 #resuts{
         position: relative;
         width: 50px; /* Ajuste a largura conforme necessário */
