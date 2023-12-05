@@ -63,8 +63,6 @@
         }
         @media screen and (max-width: 768px) {
             .navigation_header{
-                position: absolute;
-                flex-direction: column !important;
                 top: 0;
                 background: var(--color-dark5);
                 height: 50%;
