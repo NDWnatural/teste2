@@ -67,7 +67,7 @@
                 flex-direction: column !important;
                 top: 0;
                 background: var(--color-dark5);
-                height: 100%;
+                height: 50%;
                 width: 35vw;
                 padding: 1em;
                 animation-duration: 1s;
