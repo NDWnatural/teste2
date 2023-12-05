@@ -1,24 +1,21 @@
 /*barra de nave*/
         :root{
             --color-white: #fff;
-            --color-dark1: rgb(39, 39, 39);
+            --color-dark1: #272727;
             --color-dark2: #2d2d2d;
             --color-dark3: #414141;
             --color-dark4: #1c1c1c;
             --color-dark5: #343434;
-            --color-pink:  #ff809c;
+            --color-pink:  #ff809c; 
         }
         *{
             margin: 0;
             padding: 0;
         }
         body{
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background-color: var(--color-dark1);
             color: var(--color-white);
-            display: flex;
-                width:100%;
-                justify-content: space-around;
         }
         .img_logo_header{
             width: 45px;
@@ -28,9 +25,10 @@
             display: flex;
             flex-direction: row;
             align-items: center;
-                font-size: 12px;
+            font-size:  12px;
         }
         .header{
+            background-color: var(--color-dark2);
             justify-content: space-between;
             padding: 0 10%;
             height: 3.5em;
@@ -41,10 +39,11 @@
             z-index: 2;
         }
         .content{
+            color: var(--color-pink);
             padding-top: 5em;
             text-align: center;
             height: 100vh;
-            transition: 1s;
+            transition: 0.6s;
         }
         .navigation_header a{
             text-decoration: none;
@@ -63,9 +62,11 @@
         }
         @media screen and (max-width: 768px) {
             .navigation_header{
+                position: absolute;
+                flex-direction: column !important;
                 top: 0;
                 background: var(--color-dark5);
-                height: 50%;
+                height: 100%;
                 width: 35vw;
                 padding: 1em;
                 animation-duration: 1s;
@@ -73,7 +74,6 @@
             }
             .btn_icon_header{
                 display: block;
-                    background: transparent;
             }
         }
         @keyframes showSidebar {
